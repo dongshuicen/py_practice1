@@ -7,12 +7,12 @@ from idlelib.multicall import r
 import requests
 def callLegalApi(day):
     url = r'http://api.goseek.cn/Tools/holiday?date=20170528'
-    requests.get(url,)
+    requests.get(url)
     time.sleep(1)
     r.encoding = 'utf-8'
     d = json.loads(r.text)
     answer = d['data']
     # ws.Range('B' + str(i)).Value = answer
-    print('{}:{}'.format(answer))
+    print('{}'.format(answer))
 
 callLegalApi(1)
