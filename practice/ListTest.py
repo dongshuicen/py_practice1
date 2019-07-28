@@ -4,7 +4,7 @@
 string = "hello python !"
 list1 = list(string)
 print(list1)
-numberList = [1,2,3,4,5]
+numberList = [1, 2, 3, 4, 5]
 list2 = list(numberList)
 print(list2)
 # int 转 string
